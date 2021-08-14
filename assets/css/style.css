@@ -178,8 +178,10 @@ button{
 }
 .mob{
     text-align: center;
+    padding: 25px;
     
 }
+
 .animate{
     animation: fade 2s;
     transition: 2s;
@@ -199,7 +201,10 @@ button{
 .email{
     width: 25%;
     text-align: center;
+    display: inline-block;
+    margin-left: 25px;
 }
+
 .email img{
     width: 65%;
 }
@@ -209,10 +214,8 @@ code, kbd, samp {
 .fb{
     width: 25%;
     float: right;
-    position: absolute;
-    left: 55em;
-    top: 30%;
     text-align: center;
+    margin-top: -35px;
 }
 .fb img{
     width: 85%;
@@ -221,6 +224,21 @@ code, kbd, samp {
     transform: translateY(-14px);
 }
 .twitter{
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+.github{
+    width: 25%;
+    float: left;
+    margin-left: 20vh;
+}
+.github i{
+    font-size: 33vh;
+}
+.github a{
+    width: 60%;
+    display: inline-block;
     text-align: center;
 }
 .twitter img{
