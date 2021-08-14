@@ -52,6 +52,9 @@ a{
     display: block;
     padding: 8px 8px 8px 8px;
 }
+.nav-bar a:hover{
+    color:white;
+}
 
 .logo{
     padding: 8px;
@@ -60,13 +63,29 @@ a{
     padding-top: 11px;
     margin-left: 15px;
 }
+nav{
+    display: inline-block;
+    width: 100%;
+    background: white;
+}
+nav a{
+    padding: 25px;
+}
+nav a:hover{
+    background: blue;
+    color: white;
+}
+nav div{
+    display: inline-block;
+    width: 100%;
+}
 .nav-bar{
     display: inline-flex;
     float: right;
-    padding: 20px;
 }
 .nav-bar-sec{
     font-size: large;
+    
 }
 .nav-input{
     border: 1px solid lightgrey;
@@ -75,12 +94,7 @@ a{
     width: 100%;
 
 }
-.search-div{
-    width: 40%;
-    display: inline-block;
-    padding: 20px;
-    margin-top: 5px;
-}
+
 .sec-nav{
     padding: 17px;
     /*display: inline-block;
