@@ -120,7 +120,7 @@ nav div{
     display: inline-flex;
 }
 .intro img{
-    width: 70%;
+    width: 100%;
     border-radius: 50%;
 }
 .me-img{
@@ -128,6 +128,7 @@ nav div{
     transition: 1s;
     animation: fade 2s;
 }
+
 @keyframes fade {
     from{
         opacity: 0;
@@ -151,7 +152,7 @@ button{
     
 }
 .button{
-    width: 35%;
+    width: 40%;
     display: inline-block;
 }
 .but1{
@@ -270,17 +271,26 @@ code, kbd, samp {
         width: 600px;
     }
     nav{
-        width: 50%;
+        width: 60%;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
     
     .button{
-        width: 50%;
+        width: 60%;
         display: grid;
+    }
+    .me-img{
+        width: 35%;
+        display: none;
     }
 
     .up-txt {
         display: grid;
-        width: 42%;
+        width: 50%;
     }
     .up-txt h1{
         text-align: center;
@@ -290,6 +300,9 @@ code, kbd, samp {
         text-align: center;
         width: 60%;
 
+    }
+    .container{
+        
     }
 
 }
