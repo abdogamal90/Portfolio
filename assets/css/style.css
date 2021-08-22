@@ -112,6 +112,7 @@ nav div{
     line-height: 2;
     transition: 1s;
     animation: fade 2s;
+    text-align: justify;
 }
 .up-txt h2{
     width: 58%;
@@ -271,7 +272,11 @@ code, kbd, samp {
         width: 600px;
     }
     nav{
-        width: 60%;
+        width: 69%;
+    }
+    img{
+        max-width: 100%;
+        height:auto;
     }
     .nav-bar{
         display: flex;
@@ -280,7 +285,7 @@ code, kbd, samp {
     }
     
     .button{
-        width: 60%;
+        width: 70%;
         display: grid;
     }
     .me-img{
@@ -290,7 +295,7 @@ code, kbd, samp {
 
     .up-txt {
         display: grid;
-        width: 50%;
+        width: 58%;
     }
     .up-txt h1{
         text-align: center;
@@ -301,7 +306,9 @@ code, kbd, samp {
         width: 60%;
 
     }
-    .container{
+    .all{
+        display: flex;
+        width: 0%;
         
     }
 
@@ -341,4 +348,12 @@ code, kbd, samp {
 }
 .click{
     text-align: center; display: none;
+}
+
+
+.ktab{
+    display: block;
+}
+.zhr{
+    display: none;
 }
